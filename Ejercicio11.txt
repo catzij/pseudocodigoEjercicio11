@@ -1,0 +1,49 @@
+inicio
+	var numero[10];
+	var parsincero;
+	
+	var i = 0; i < 10; i ++;{
+	  random(0,36)
+	  leer numero[n]
+	  n ++
+	}
+
+	var i = 0; i < 10; i ++;{
+	  si numero[n] %2==0{
+	    si numero[n]==0
+
+	    contrario
+
+	    parsincero ++ 
+	  }
+	  contrario{
+	    impar ++
+	  }
+	  fin si
+	    
+	}
+
+	var mayor
+	var i = 0; i < 10; i ++;{
+	  si numero[n] >mayor{
+	    mayor = numero[n]
+	  }
+	  fin si
+	    
+	}
+
+
+	var i = 0; i < 10; i ++;{
+	  si numero[n] >12 y numero[n]<=24{
+	    docena ++
+	  }
+	  fin si
+	    
+	}
+
+	mostrar "numeros en la segunda decena"+docena
+	mostrar "numeros impares"+impar
+	mostrar "cantidad de numero pares"+paressincero
+	mostrar "el numero mas grande "+mayor
+
+fin
